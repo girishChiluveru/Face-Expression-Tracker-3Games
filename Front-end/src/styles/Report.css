@@ -1,0 +1,56 @@
+.report-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .session-table, .session-detail-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .session-table th, .session-table td,
+  .session-detail-table th, .session-detail-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .chart {
+    width: 300px;
+    margin: 0 10px;
+  }
+  
+  .session-detail {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
