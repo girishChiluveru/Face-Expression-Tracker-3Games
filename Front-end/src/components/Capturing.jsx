@@ -110,7 +110,18 @@ const Capturing = ({
                 <p>Capture stopped</p>
             )} */}
 
-            
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     );
 };
