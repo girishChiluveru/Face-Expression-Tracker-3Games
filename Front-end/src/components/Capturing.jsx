@@ -76,7 +76,7 @@ const Capturing = ({
             html2canvas(document.body).then(canvas => {
                 const screenshotData = canvas.toDataURL('image/png');
                 const timeElapsed = Math.floor((Date.now() - startTime) / 1000);
-                const filename = `screenshot-${sessionId}-${timeElapsed}.png`;
+                const filename = `screenshot-${gameId}-${timeElapsed}.png`;
 
                 uploadImage(screenshotData, filename);
             }).catch(error => console.error("Screenshot capture error:", error));
